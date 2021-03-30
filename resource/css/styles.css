@@ -1,0 +1,70 @@
+body {
+    width:100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+}
+
+.header {
+    height:80px;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flexbox div{
+    max-width:33%;
+}
+
+.flexbox div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.target {
+    background-image: url("../img/back.png");
+    height: 450px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:black;
+    background-position: center ;
+    color: White;
+}
+
+.achievements .flexbox {
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.officer div img{
+    max-width: 100%;
+}
+
+.officer div {
+    margin: auto 10px;
+}
+
+.a{
+    background-color:coral;
+}
+
+.b {
+    background-color:darkslateblue;
+}
