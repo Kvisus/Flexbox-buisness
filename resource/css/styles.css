@@ -1,7 +1,7 @@
 body {
     width:100%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
 }
 
 .header {
@@ -21,6 +21,7 @@ body {
 
 .flexbox div{
     max-width:33%;
+    margin: auto;
 }
 
 .flexbox div img{
@@ -66,5 +67,5 @@ h1{
 }
 
 .b {
-    background-color:darkslateblue;
+    background-color:rgb(97, 80, 209);
 }
